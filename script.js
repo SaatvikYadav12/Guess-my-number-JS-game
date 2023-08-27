@@ -1,6 +1,7 @@
 'use strict';
 
 /*
+not needed just for reference
 console.log(document.querySelector('.message').textContent);
 document.querySelector('.message').textContent = '🎉Correct Number!';
 
@@ -33,7 +34,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if(score > highscore) {
       highscore = score;
     }
-
+    
     // when guess is too high
   } else if (guess > secretNumber) {
     if (score > 1) {

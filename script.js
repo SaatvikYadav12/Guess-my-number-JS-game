@@ -54,7 +54,7 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.again').addEventListener('click', function () {
-  // resetting the score
+  // resetting the score to 20
   score = 20;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
 
